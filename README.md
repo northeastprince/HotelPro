@@ -1,2 +1,2 @@
 # hotelpro
-A super simple pms for small hotels built in python.
+HotelPro is a super simple pms for small hotels built in python.
