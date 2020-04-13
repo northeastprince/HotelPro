@@ -73,7 +73,7 @@ while auth == True:
 
     elif entered_command == 'book_room':
 
-        cus_num = raw_input('Enter Customer Number')
+        cus_num = raw_input('Enter Customer Number: ')
 
         room_num = raw_input('Enter Room Num without prefix: ')
 
