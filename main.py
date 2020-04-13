@@ -78,5 +78,8 @@ while auth == True:
         room_num = raw_input('Enter Room Num without prefix: ')
 
         room_status[int(room_num) - 1] = 'R' + room_num + ' Booked to: ' + cus_num
-
+    elif entered_command == 'save':
+        with open(filename) as f_obj:
+            room_status = json.load(f_obj)
+    
     else: print ('Invalid Command')
